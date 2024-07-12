@@ -1,0 +1,8 @@
+services:
+  workspace:
+    build: .
+    container_name: home-ventilation-control
+    tty: true
+    volumes:
+      - .:/workspace
+      
